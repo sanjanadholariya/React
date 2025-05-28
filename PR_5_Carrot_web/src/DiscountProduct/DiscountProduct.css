@@ -1,0 +1,33 @@
+.list-group button{
+    background-color: white;
+    height:85px !important;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #f7f8f9;
+    
+}
+.list-group button:hover{
+    color: #64b496 !important;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.images button{
+    background-color: #64b496;
+    border: 1px solid #64b496;
+    color: white;
+    font-weight:600;
+    border: #64b496;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px 15px;
+}
+.images button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+}

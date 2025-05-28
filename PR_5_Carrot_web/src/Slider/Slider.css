@@ -1,0 +1,33 @@
+.slider_img {
+  width: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.slider_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.slider_img span{
+    color: #64b496;
+    font-weight: 700;
+}
+.slider_img button{
+    background-color: #64b496;
+    color: white;
+    font-weight:600;
+    border: #64b496;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px 15px;
+}
+.slider_img button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+.box{
+    background-color: #f4f5f6;
+}

@@ -34,6 +34,8 @@ function App() {
           ...formInput,
           courses: [...formInput.courses].filter(val => val != value)
         })
+
+        
       }
 
     }

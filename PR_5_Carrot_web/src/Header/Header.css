@@ -1,0 +1,151 @@
+input {
+  width: 350px;
+  outline: none;
+  border: 1px solid #64b496;
+  padding: 5px;
+  height: 35px;
+  font-size: 13px;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 10px;
+}
+
+.form-select {
+  background-color: white;
+  color: black;
+  height: 35px;
+  font-size: 12px;
+  border: 1px solid #64b496 !important;
+  border-radius: 0px;
+  width: 130px;
+  outline: none;
+  transition: none;
+  box-shadow: none !important;
+  border-left: 0 !important;
+}
+.searchButton {
+  background-color: #64b496;
+  border: 1px solid #64b496;
+  width: 35px;
+  border-radius: 0 5px 5px 0;
+}
+.dropdown {
+  font-size: 15px;
+}
+.nav-link:hover {
+  color: #64b496;
+}
+.dropdown-menu-width {
+  width: 120px !important;
+  min-width: unset !important;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid rgb(213, 210, 210);
+  box-shadow: inset;
+}
+.dropdown-menu li a:hover {
+  color: #64b496;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header_end {
+  font-weight: 500;
+}
+
+.bars {
+  /* border: 1px solid rgb(206, 203, 203); */
+  border: none;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding-right: 50px;
+  font-size: 12px;
+  font-weight: 600;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.call {
+  font-size: 13px;
+  font-weight: 500;
+}
+ul li a:hover {
+  color: #64b496 !important;
+}
+.menu_list li {
+  font-size: 13px !important;
+}
+.menu_list .dropdown-menu li {
+  padding: 0;
+}
+.menu_list .dropdown-menu {
+  width: auto !important;
+  min-width: unset !important;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid rgb(213, 210, 210);
+  box-shadow: inset;
+}
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.mega-menu {
+  position: absolute;
+  left: 0;
+  width: 700px;
+  background: white;
+  padding: 20px 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.dropdown-wrapper:hover .mega-menu {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mega-menu h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1c1c1c;
+}
+
+.mega-menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.mega-menu ul li {
+  padding: 4px 0;
+}
+
+.mega-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mega-menu ul li a:hover {
+  color: #64b496;
+}
+

@@ -1,0 +1,83 @@
+{
+  "categories": [
+    { "id": 1, "name": "All" },
+    { "id": 2, "name": "Snack" },
+    { "id": 3, "name": "Vegetable" },
+    { "id": 4, "name": "Fruit" },
+    { "id": 5, "name": "Bakery" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Vegetable",
+      "title": "Fresh organic villa farm lemon 500gm pack",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/1.jpg",
+      "rating": 4.5,
+      "price": 120.25,
+      "oldPrice": 123.25
+    },
+    {
+      "id": 2,
+      "category": "Snack",
+      "title": "Best snakes with hazel nut pack 200gm",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/9.jpg",
+      "rating": 4.5,
+      "price": 145,
+      "oldPrice": 150
+    },
+    {
+      "id": 3,
+      "category": "Fruit",
+      "title": "Fresh organic apple 1kg simla marmimg",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/2.jpg",
+      "rating": 4.5,
+      "price": 120.25,
+      "oldPrice": 123.25
+    },
+    {
+      "id": 4,
+      "category": "Bakery",
+      "title": "Delicious white baked fresh bread and toast",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/17.jpg",
+      "rating": 4.5,
+      "price": 20,
+      "oldPrice": 22.25
+    },
+    {
+      "id": 5,
+      "category": "Snack",
+      "title": "Sweet crunchy nut mix 250gm pack",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/11.jpg",
+      "rating": 4.5,
+      "price": 120.25,
+      "oldPrice": 123.25
+    },
+    {
+      "id": 6,
+      "category": "Fruit",
+      "title": "Organic fresh venila farm watermelon 5kg",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/3.jpg",
+      "rating": 4.5,
+      "price": 50.30,
+      "oldPrice": 72.60
+    },
+    {
+      "id": 7,
+      "category": "Snack",
+      "title": "Sweet crunchy nut mix 250gm pack",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/10.jpg",
+      "rating": 4.5,
+      "price": 120.25,
+      "oldPrice": 123.25
+    },
+    {
+      "id": 8,
+      "category": "Bakery",
+      "title": "Delicious white baked fresh bread and toast",
+      "image": "https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/17.jpg",
+      "rating": 4.5,
+      "price": 20,
+      "oldPrice": 22.10
+    }
+  ]
+}

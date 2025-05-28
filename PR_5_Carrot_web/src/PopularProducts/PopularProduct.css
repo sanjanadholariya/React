@@ -1,0 +1,40 @@
+.list_popular button{
+    background-color: white;
+    height: 44px;
+    margin-bottom: 5px;
+    text-align: left;
+    background-color: #f7f8f9;
+    width: 100%;
+    
+}
+.imgdata button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+.list_popular button p{
+    font-weight: 700;
+    color: black;
+}
+.list_popular button:hover p {
+    color: #64b496 !important;
+    
+}
+.popularImage{
+    position: relative;
+}
+.imgdata{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.list_popular button{
+    background-color: white;
+    height:44px !important;
+    margin-bottom: 5px;
+    text-align: left;
+    background-color: #f7f8f9;
+}
+.list_popular button:hover{
+    color: #64b496 !important;
+}

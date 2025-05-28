@@ -1,0 +1,34 @@
+.banner_first {
+  padding: 100px;
+  /* font-weight: 700 */
+}
+.banner_first span,
+h5 {
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+p {
+  color: grey;
+  font-size: 12px;
+}
+.banner_first span {
+  color: #64b496;
+  text-decoration: underline;
+}
+.banner_first button {
+  background-color: #64b496;
+  color: white;
+  font-weight: 600;
+  border: #64b496;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 5px 15px;
+}
+.banner_first button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
