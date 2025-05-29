@@ -12,13 +12,13 @@ const Employee = ({ handleSubmit, formInput, handleChange, allData, deleteEmploy
                             <form onSubmit={handleSubmit}>
                                 <div className="mb-3">
                                     <label className="form-label">Full Name</label>
-                                    <input type="text" className="form-control" name='name' onChange={handleChange} value={formInput.name} />
+                                    <input type="text" placeholder="Enter Your Name..." className="form-control" name='name' onChange={handleChange} value={formInput.name} />
                                     {formError.name && <div className="text-danger small mt-1">{formError.name}</div>}
                                 </div>
 
                                 <div className="mb-3">
                                     <label className="form-label">Email</label>
-                                    <input type="email" className="form-control" name='email' onChange={handleChange} value={formInput.email} />
+                                    <input type="email" placeholder="Enter Your Email..." className="form-control" name='email' onChange={handleChange} value={formInput.email} />
                                     {formError.email && <div className="text-danger small mt-1">{formError.email}</div>}
                                 </div>
 
