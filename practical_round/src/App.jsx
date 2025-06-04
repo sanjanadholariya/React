@@ -68,11 +68,11 @@ function App() {
                 
                 <br />
                 {
-                  data.source_records.includes(formInput.record) ? formInput.record : "There Is No Data Found! First Search Source Record"
+                  Array.isArray(data.source_records) && data.source_records.includes(formInput.record) ? formInput.record : "There Is No Data Found! First Search Source Record"
                 }
               </td>
               <td className='col'>{
-                data.alternate_names.includes(formInput.name) ? formInput.name : "First Search Alternate name"
+               Array.isArray(data.alternate_names) && data.alternate_names.includes(formInput.name) ? formInput.name : "First Search Alternate name"
                 }</td>
               <td className='col'>{data.birth_date}</td>
               <td className='col'>{data.latest_revision}</td>
