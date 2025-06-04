@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link, useNavigate, useParams } from "react-router-dom"
-import { loadEnv } from "vite"
+import {  useNavigate, useParams } from "react-router-dom"
 
 const Edit = () => {
 
@@ -41,9 +40,9 @@ const Edit = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const updatedData = allRecord.map((val) => {
-        val.id == editId ? formInput : val
-    })
+    const updatedData = allRecord.map((val) => 
+        val.id == editId ? formInput  : val
+    )
 
     localStorage.setItem('data',JSON.stringify(updatedData))
     setAllRecord(updatedData)

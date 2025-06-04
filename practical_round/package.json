@@ -1,5 +1,5 @@
 {
-  "name": "crud-router",
+  "name": "practical_round",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.3.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.1",
-    "sweetalert2": "^11.22.0"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
