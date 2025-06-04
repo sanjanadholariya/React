@@ -31,7 +31,7 @@ function App() {
   }, [])
 
   return (
-    <div  align="center">
+    <div className='container'  align="center">
 
     <form className='mt-5 mb-5'>
       <div className="row">
