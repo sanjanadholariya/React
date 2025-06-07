@@ -61,6 +61,10 @@ const View = () => {
               <th scope="col">Name</th>
               <th scope="col">Email</th>
               <th scope="col">Password</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Courses</th>
+              <th scope="col">City</th>
+              <th scope="col">Date Of Join</th>
               <th scope="col">Action</th>
             </tr>
           </thead>
@@ -68,13 +72,17 @@ const View = () => {
             {
               allRecord.map((val, index) => {
                 if (!val) return null;
-                const { id, name, email, password } = val
+                const { id, name, email, password, gender, courses, city, dateOfJoin } = val
                 return (
                   <tr key={index}>
                     <td>{id}</td>
                     <td>{name}</td>
                     <td>{email}</td>
                     <td>{password}</td>
+                    <td>{gender}</td>
+                    <td>{Array.isArray(courses) ? courses.join(", ") : courses}</td>
+                    <td>{city}</td>
+                    <td>{dateOfJoin}</td>
                     <td>
                       <button className="btn btn-sm btn-warning me-2" onClick={() => gotoEdit(id)}>Edit</button>
                       <button className="btn btn-sm btn-danger" onClick={() => deleteUser(id)}>Delete</button>
