@@ -82,6 +82,9 @@ const Edit = () => {
       <div className="row justify-content-center">
         <div className="col-md-6">
           <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+
+
+
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
               <input type="text" className="form-control" name="name" id="name" onChange={handleChange} value={formInput.name} placeholder="Enter Your Name..." required />
