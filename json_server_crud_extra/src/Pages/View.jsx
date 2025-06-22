@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { DELETE_DATA, GET_DATA } from '../redux/action/crudAction';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const View = () => {
 
   const data = useSelector(state => state.crud.users)
   console.log(data);
+
+  const navigate = useNavigate()
 
   const dispatch = useDispatch();
 
@@ -16,6 +18,11 @@ const View = () => {
     dispatch(GET_DATA())
   },[])
   
+  const handleEdit = (id) => {
+    console.log(id);
+    
+    navigate(`/edit/${id}`);
+  }
 
   return (
     <div align="center">
@@ -41,7 +48,7 @@ const View = () => {
                   <td>{email}</td>
                   <td>
                     <button onClick={() => dispatch(DELETE_DATA(id))}>Delete</button>
-                    <button>Edit</button>
+                    <button onClick={() => handleEdit(id)}>Edit</button>
                   </td>
                 </tr>
               )

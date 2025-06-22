@@ -33,12 +33,22 @@
                     ...state,
                     users : action.payload,
                     err:null
-
                 };
             case "deleteErr":
                 return{
                     ...state,
                     err : null
+                };
+            case "editData":
+                return{
+                    ...state,
+                    users : action.payload,
+                    err : null
+                };
+            case "editErr":
+                return{
+                    ...state,
+                    err : action.payload
                 };
             default :
                 return state;

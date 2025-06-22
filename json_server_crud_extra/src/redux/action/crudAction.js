@@ -1,22 +1,22 @@
 const ADD_DATA = (formInput) => {
     console.log(formInput);
-    
+
     return async (dispatch) => {
         try {
-            await fetch(`http://localhost:3000/data`,{
-                method : "POST",
-                headers:{
-                    "content-type" : "application/json"
+            await fetch(`http://localhost:3000/data`, {
+                method: "POST",
+                headers: {
+                    "content-type": "application/json"
                 },
-                body:JSON.stringify(formInput)
+                body: JSON.stringify(formInput)
             })
             const data = await fetch(`http://localhost:3000/data`)
             const res = await data.json();
             console.log(res);
-            
+
             dispatch({
-                type : "addData",
-                payload : res
+                type: "addData",
+                payload: res
             })
         }
         catch (err) {
@@ -29,46 +29,80 @@ const ADD_DATA = (formInput) => {
 }
 
 const GET_DATA = () => {
-    return async(dispatch) => {
-        try{
+    return async (dispatch) => {
+        try {
             let data = await fetch(`http://localhost:3000/data`)
             let res = await data.json();
             dispatch({
-                type : "getData",
-                payload : res
+                type: "getData",
+                payload: res
             })
-        }catch(err){
+        } catch (err) {
             dispatch({
-                type : "getErr",
-                payload : err
+                type: "getErr",
+                payload: err
             })
         }
     }
 }
 
-const DELETE_DATA = (id) =>{
-    return async(dispatch) => {
-        try{
-            await fetch(`http://localhost:3000/data/${id}`,{
-                method : "DELETE"
-                
+const DELETE_DATA = (id) => {
+    return async (dispatch) => {
+        try {
+            await fetch(`http://localhost:3000/data/${id}`, {
+                method: "DELETE"
+
             })
 
-            const data =await fetch(`http://localhost:3000/data`)
-            const res =await data.json();
+            const data = await fetch(`http://localhost:3000/data`)
+            const res = await data.json();
             dispatch({
-                type : "deleteData",
-                payload : res
+                type: "deleteData",
+                payload: res
             })
-        }catch(err){
+        } catch (err) {
             dispatch({
-                type : "deleteErr",
-                payload : err
+                type: "deleteErr",
+                payload: err
             })
         }
     }
 }
 
+const EDIT_DATA = (formInput) => {
+    return async (dispatch) => {
+        try {
+
+            await fetch(`http://localhost:3000/data/${formInput.id}`, {
+                method: "PUT",
+                headers: {
+                    "content-type": "application/json"
+                },
+                body:
+                    JSON.stringify({
+                        name : formInput.name,
+                        email : formInput.email
+                    })
+
+            })
+
+            const data = await fetch(`http://localhost:3000/data`)
+            const res = await data.json();
+
+            dispatch({
+                type : "editData",
+                payload : res
+            })
+            
 
 
-export {ADD_DATA , GET_DATA , DELETE_DATA};
+        } catch (err) {
+            dispatch({
+                type: "editErr",
+                payload: err
+            })
+        }
+    }
+}
+
+export { ADD_DATA, GET_DATA, DELETE_DATA ,EDIT_DATA};
