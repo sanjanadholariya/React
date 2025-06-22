@@ -1,20 +1,21 @@
- const addData = (data) => {
+const AddData = (allData) => {
     return{
         type : "addData",
-        payout : data
+        payload : allData
     }
- }
- const deleteData = (id) => {
+}
+const DeleteData = (id) => {
     return{
         type : "deleteData",
-        payout : id
+        payload : id
+
     }
- }
- const editData = (updateUser) => {
+}
+const EditData = (formInput) => {
     return{
         type : "editData",
-        payout : updateUser
+        payload : formInput
     }
- }
+}
 
- export {addData , deleteData , editData}
+export {AddData , DeleteData, EditData}

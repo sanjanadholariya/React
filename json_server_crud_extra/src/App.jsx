@@ -3,18 +3,17 @@ import View from "./Pages/View"
 import Add from "./Pages/Add"
 import Edit from "./Pages/Edit"
 
-
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
+     <BrowserRouter>
+      <Routes>
           <Route path="/" element={<View/>}/>
           <Route path="/add" element={<Add/>}/>
           <Route path="/edit/:id" element={<Edit/>}/>
-        </Routes>
-      </BrowserRouter>
+        </Routes> 
+     </BrowserRouter>
     </>
   )
 }

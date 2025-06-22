@@ -5,6 +5,8 @@ import { Link, useNavigate } from 'react-router-dom'
 
 const View = () => {
   const data = useSelector(state=> state.crud.users)
+  console.log(data);
+  
   const dispatch = useDispatch()
   const navigate = useNavigate()
 
