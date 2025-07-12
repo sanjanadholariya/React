@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "8168",
+      "title": "As a social network",
+      "description": "In 2007, following six weeks of observation, social media expert Matthew Hurst mapped the blogosphere, generating the plot to the left based on the interconnections between blogs. The most densely populated areas represent the most active portions of the blogosphere. White dots represent individual blogs. They are sized according to the number of links surrounding that particular blog. Links are plotted in both green and blue, with green representing one-way links and blue representing reciprocal links.[19]",
+      "date": "2025-07-22",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Blogosphere_map.jpg",
+      "category": "Technology"
+    },
+    {
+      "id": "37a4",
+      "title": "Early popularity",
+      "description": "Many bloggers, particularly those engaged in participatory journalism, are amateur journalists, and thus they differentiate themselves from the professional reporters and editors who work in mainstream media organizations. Other bloggers are media professionals who are publishing online, rather than via a TV station or newspaper, either as an add-on to a traditional media presence (e.g., hosting a radio show or writing a column in a paper newspaper), or as their sole journalistic output. Some institutions and organizations see blogging as a means of \"getting around the filter\" of media \"gatekeepers\" and pushing their messages directly to the public. Many mainstream journalists, meanwhile, write their own blogs—well over 300, according to CyberJournalist.net's J-blog list.[citation needed] The first known use of a blog on a news site was in August 1998, when Jonathan Dube of The Charlotte Observer published one chronicling Hurricane Bonnie.[46]",
+      "date": "2025-08-01",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BlogActive.com_Screenshot_2004.jpg/500px-BlogActive.com_Screenshot_2004.jpg",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "0e03",
+      "title": "Origins",
+      "description": "A blog (a truncation of \"weblog\")[1] is an informational website consisting of discrete, often informal diary-style text entries also known as posts. Posts are typically displayed in reverse chronological order so that the most recent post appears first, at the top of the web page. In the 2000s, blogs were often the work of a single individual, occasionally of a small group, and often covered a single subject or topic. In the 2010s, multi-author blogs (MABs) emerged, featuring the writing of multiple authors and sometimes professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other \"microblogg",
+      "date": "2025-07-30",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Radio._CBC_Offices_BAnQ_P48S1P23108_%28cropped%29.jpg/500px-Radio._CBC_Offices_BAnQ_P48S1P23108_%28cropped%29.jpg",
+      "category": "Education"
+    },
+    {
+      "id": "3fa8",
+      "title": "Rise in popularity",
+      "description": "magazine maintained the Daily Net News[20] on their web site from 1996. Daily Net News ran links and daily reviews of new websites, mostly in Australia.",
+      "date": "2025-08-06",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Eastcampusfire_glog_crop.png/500px-Eastcampusfire_glog_crop.png",
+      "category": "Travel"
+    }
+  ]
+}
