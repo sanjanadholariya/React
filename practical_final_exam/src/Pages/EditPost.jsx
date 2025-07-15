@@ -69,7 +69,7 @@ const posts = useSelector((state) => state.post.post);
               <h2 className="mb-4 text-center fw-bold text-primary">✏ Edit Blog Post</h2>
 
               <form onSubmit={handleSubmit}>
-                {/* Title */}
+                
                 <div className="mb-3">
                   <label className="form-label fw-semibold">Post Title</label>
                   <input
@@ -82,7 +82,7 @@ const posts = useSelector((state) => state.post.post);
                   />
                 </div>
 
-                {/* Description */}
+               
                 <div className="mb-3">
                   <label className="form-label fw-semibold">Description</label>
                   <textarea
@@ -95,7 +95,7 @@ const posts = useSelector((state) => state.post.post);
                   ></textarea>
                 </div>
 
-                {/* Date */}
+                
                 <div className="mb-3">
                   <label className="form-label fw-semibold">Date</label>
                   <input
@@ -107,7 +107,7 @@ const posts = useSelector((state) => state.post.post);
                   />
                 </div>
 
-                {/* Image URL */}
+                
                 <div className="mb-3">
                   <label className="form-label fw-semibold">Image URL</label>
                   <input
@@ -120,7 +120,7 @@ const posts = useSelector((state) => state.post.post);
                   />
                 </div>
 
-                {/* Category */}
+                
                 <div className="mb-4">
                   <label className="form-label fw-semibold">Category</label>
                   <select
@@ -138,7 +138,7 @@ const posts = useSelector((state) => state.post.post);
                   </select>
                 </div>
 
-                {/* Submit */}
+                
                 <div className="d-grid">
                   <button type="submit" className="btn btn-success btn-lg rounded-3">
                     ✅ Update Post

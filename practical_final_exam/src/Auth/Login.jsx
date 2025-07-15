@@ -21,7 +21,7 @@ const Login = () => {
 
     if (matched) {
       dispatch({ type: "LOGIN_SUCCESS", payload: matched })
-      // localStorage.setItem("loginUser", JSON.stringify(matched)) // optional if reducer handles this
+     
       navigate("/")
     } else {
       dispatch({ type: "AUTH_ERROR", payload: "Invalid Credentials" })

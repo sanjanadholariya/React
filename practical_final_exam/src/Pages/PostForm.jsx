@@ -45,7 +45,7 @@ const PostForm = () => {
                             <h2 className="mb-4 text-center fw-bold text-primary">Create New Blog Post</h2>
 
                             <form onSubmit={handleSubmit}>
-                                {/* Title */}
+                                
                                 <div className="mb-3">
                                     <label className="form-label fw-semibold">Post Title</label>
                                     <input
@@ -58,7 +58,7 @@ const PostForm = () => {
                                     />
                                 </div>
 
-                                {/* Description */}
+                               
                                 <div className="mb-3">
                                     <label className="form-label fw-semibold">Description</label>
                                     <textarea
@@ -71,7 +71,7 @@ const PostForm = () => {
                                     ></textarea>
                                 </div>
 
-                                {/* Date */}
+                               
                                 <div className="mb-3">
                                     <label className="form-label fw-semibold">Date</label>
                                     <input
@@ -83,7 +83,7 @@ const PostForm = () => {
                                     />
                                 </div>
 
-                                {/* Image URL */}
+                               
                                 <div className="mb-3">
                                     <label className="form-label fw-semibold">Image URL</label>
                                     <input
@@ -96,7 +96,7 @@ const PostForm = () => {
                                     />
                                 </div>
 
-                                {/* Category */}
+                                
                                 <div className="mb-4">
                                     <label className="form-label fw-semibold">Category</label>
                                     <select
@@ -114,7 +114,7 @@ const PostForm = () => {
                                     </select>
                                 </div>
 
-                                {/* Submit */}
+                                
                                 <div className="d-grid">
                                     <button type="submit" className="btn btn-primary btn-lg rounded-3">
                                         Publish Post

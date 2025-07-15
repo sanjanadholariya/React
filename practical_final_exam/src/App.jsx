@@ -15,11 +15,11 @@ function App() {
       <Navbar />
 
       <Routes>
-        {/* Public Routes */}
+        
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
-        {/* Protected Routes */}
+        
         <Route
           path="/"
           element={
@@ -44,7 +44,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-        {/* Redirect for unknown routes */}
+        
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>

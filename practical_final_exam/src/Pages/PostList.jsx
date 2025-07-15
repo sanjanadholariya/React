@@ -52,7 +52,7 @@ const PostList = () => {
     <div className="container py-5">
       <h2 className="text-center text-primary fw-bold mb-4">📚 Blog Posts</h2>
 
-      {/*  Search / Filter / Sort */}
+      
       <div className="row mb-4">
         <div className="col-md-4">
           <input
@@ -89,7 +89,7 @@ const PostList = () => {
         </div>
       </div>
 
-      {/* Post Cards */}
+     
       <div className="row g-4">
         {filteredPosts && filteredPosts.length > 0 ? (
           filteredPosts.map((post) => (

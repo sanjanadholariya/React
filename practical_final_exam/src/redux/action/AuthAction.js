@@ -1,4 +1,4 @@
-// src/redux/action/AuthAction.js
+
 export const REGISTER_USER = (formData) => {
   return async (dispatch) => {
     try {
